@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manjaro.resto</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="menu.sql">
+    <link rel="stylesheet" href="koneksi.php">
+
+</head>
+<body>
+    
+<!-- header section starts -->
+
+<header>
+
+    <section class="flex">
+
+        <a href="#" class="logo"><i class="fas fa-utensils"></i> Manjaro.resto</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+    
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>5
+            <a href="keranjang.html" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </section>
+
+</header>
+
+<!-- header section ends-->
+
+<!-- search form  -->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- home section starts  -->
+
+<div class="container">
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+    
+            <div class="swiper-wrapper">
+    
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our popular dish</span>
+                        <h3>Rendang</h3>
+                        <p>Rendang merupakan makanan popular dari Indonesia yang berasal dari daerah sumatra Barat,
+                            Memiliki cita rasa pedas yang khas dan dibuat dengan 
+                            menggunakan rempah rempah berkualitas,
+
+                        </p>
+                        
+                    </div>
+                    <div class="image">
+                        <img src="images/wepik-export-20240115145041PZ6T.jpeg" alt="">
+                    </div>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our popular dish</span>
+                        <h3>sate</h3>
+                        <p>Sate merupakan makanan popular dari Indonesia yang berasal 
+                            dari daerah jawa, yang disajikan menggunakan lontong maupun nasi
+                            dengan pilihan daging yaitu: daging ayam,Sapi dan kambing. 
+                            dan menggunakan bumbu kacang.
+                            
+                        </p>
+                        
+                    </div>
+                    <div class="image">
+                        <img src="images/pork-satay-with-peanut-sauce-sweet-sour-sauce-thai-food.jpg" alt="">
+                    </div>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our popular dish</span>
+                        <h3>Soto</h3>
+                        <p>Soto merupakan makanan popular dari Indonesia, Dengan bermacam macam jenisnya
+                            salah satunya: Soto Bandung, Soto Lamongan,Soto Betawi,Soto Kudus, dan Soto Makasar
+                            yang masing masingnya memiliki cita rasa yang berbeda.</p>
+                        
+                    </div>
+                    <div class="image">
+                        <img src="images/close-up-high-protein-soup-meal.jpg" alt="">
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="swiper-pagination"></div>
+    
+        </div>
+    
+    </section>
+
+</div>
+
+<!-- home section ends -->
+
+<!-- dishes section starts  -->
+
+<div class="container">
+
+    <section class="dishes" id="dishes">
+
+        <h3 class="sub-heading"> our other dishes </h3>
+        <h1 class="heading"> Menu </h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/Resep Nasi uduk rice cooker oleh Xander's Kitchen.jpg" alt="">
+                <h3>Nasi Campur</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>15.000</span>
+                
+            </div>
+    
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/Dibisikin Sama Pedagang Gado-gado Langganan, Begini Cara Bikin Saus Kacang yang Gurih Sampai Bikin Ketagihan - Sajian Sedap.jpg" alt="">
+                <h3>Gado Gado</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>15.000</span>
+                
+            </div>
+    
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/Gudeg, Khas Yogyakarta.jpg" alt="">
+                <h3>Gudeg</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>25.000</span>
+                
+            </div>
+    
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/Pempek, Khas Palembang, Sumatera Selatan.jpg" alt="">
+                <h3>Pempek Palembang</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>15.000</span>
+                
+            </div>
+    
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/Baso.jpg" alt="">
+                <h3>Bakso</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>10.000</span>
+                
+            </div>
+    
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/9314b71b-ea62-4a34-924f-7fa58c8dc6ea.jpg" alt="">
+                <h3>Martabak</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>20.000</span>
+                <
+            </div>
+    
+        </div>
+    
+    </section>
+
+</div>
+
+<!-- dishes section ends -->
+
+<!-- about section starts  -->
+
+<div class="container">
+
+    <section class="about" id="about">
+
+        <h3 class="sub-heading"> about us </h3>
+        <h1 class="heading"> why choose us? </h1>
+    
+        <div class="row">
+    
+            <div class="image">
+                <img src="images/Yellow Emblem Food Drink Logo.png" alt="">
+            </div>
+    
+            <div class="content">
+                <h3>Best Resto in the World</h3>
+                <p>Manjaro resto adalah sebuah restoran yang berdiri pada tahun 2016,
+                    yang didirikan oleh Dedeng Hirawan,S.kom,M.kom dengan tujuan
+                    Mengenalkan makanan makanan khas Indonesia pada Masyarakat luar Indonesia
+                    dengan cita rasa yang otentik. dengan harga yang ramah di kantong,
+                    Manjaro resto memiliki visi yaitu memberikan dan melayani pelanggan 
+                    dengan baik, dan mengenalkan makanan khas Indonesia pada dunia luar.
+
+                 </p>
+                <p>Manjaro resto telah memiliki cabang di berbagai daerah di Indonesia 
+                    bahkan telah memiliki cabang di luar negeri, Seperti Jepang, 
+                    Russia, USA,  dan France
+                </p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 service</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">learn more</a>
+            </div>
+    
+        </div>
+    
+    </section>
+
+</div>
+
+<!-- about section ends -->
+
+<!-- menu section starts  -->
+
+<div class="container">
+
+    <section class="menu" id="menu">
+
+        <h3 class="sub-heading"> our menu </h3>
+        <h1 class="heading"> Snacks and Drink</h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/Es Cendol Durian.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Es Cendol</h3>
+                    <p>Es cendol adalah penganan yang terbuat dari tepung beras dan 
+                        sebagainya yang dibentuk dengan penyaring, kemudian dicampur 
+                        dengan air gula dan santan.Cendol merupakan minuman penutup 
+                        es manis yang mengandung tetesan tepung beras hijau, santan, 
+                        dan sirop gula aren.Cendol populer di Indonesia dan Asia 
+                        Tenggara lainnya seperti Brunei Darussalam, Kamboja, Malaysia, 
+                        Singapura, Thailand, Vietnam, dan Myanmar.</p>
+                   
+                    <span class="price">13.000</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/Es Sarang Burung Segar Enak Praktis - Resep _ ResepKoki.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Es sarang Burung walet</h3>
+                    <p>Es Sarang Burung adalah salah satu minuman khas dari
+                        Lombok, Nusa Tenggara Barat. Walau bernama Es Sarang
+                        Burung, minuman ini tidak menggunakan bahan sarang
+                        burung sama sekali. Simak pada resep di bawah ini.</p>
+                    
+                    <span class="price">12.000</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/Premium Photo _ Es kuwut traditional balinese fruit cocktail of honeydew coconut basil seeds and lime.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Es Kuwut</h3>
+                    <p>Es kuwut merupakan sejenis minuman koktail dingin khas
+                        Bali yang terbuat dari air kelapa yang dicampur dengan
+                        serutan kelapa, serutan melon atau timun, biji selasih, perasan
+                        jeruk nipis, sirup melon , es batu dan terkadang ditambahkan
+                        susu , santan, atau nata de Coco.</p>
+                    
+                    <span class="price">12.000</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/Resep Cireng Tahu Bumbu Rujak Super Renyah Dan Tidak Alot Mirip Cireng.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Cireng Bumbu Rujak</h3>
+                    <p>Cireng (singkatan dari aci digoreng, bahasa Sunda untuk 
+                        'tepung tapioka digoreng'; Aksara Sunda Baku: ᮎᮤᮛᮦᮀ) 
+                        adalah makanan ringan yang berasal dari daerah Sunda yang 
+                        dibuat dengan cara menggoreng campuran adonan yang berbahan 
+                        utama tepung tapioka. Makanan ringan ini sangat populer di 
+                        daerah Parahyangan,[1] dan dijual dalam berbagai bentuk dan 
+                        variasi rasa. Makanan ini cukup terkenal pada era 80-an.
+                        Bahan makanan ini antara lain terdiri dari tepung kanji, 
+                        tepung terigu, air, merica bubuk, garam, bawang putih, kedelai, 
+                        daun bawang dan minyak goreng</p>
+                    
+                    <span class="price">20.000</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/Tahu Cabe Garam.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Tahu Cabe Garam</h3>
+                    <p>Tahu cabe garam adalah makanan dengan bahan dasar tahu yang digoreng menggunakan
+                        tepung dan di oseng menggunakan cabe,bawang putih dan penyedap rasa
+                    </p>
+                    
+                    <span class="price">20.000</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/Kue Cubit Setengah Matang.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Kue Cubit
+                    </h3>
+                    <p>Kue cubit merupakan jajanan populer di Jakarta. 
+                        Kue berukuran kecil ini (diameter sekitar 4 cm) dan biasa 
+                        dijajakan di depan sekolah oleh pedagang kaki lima. Kue cubit 
+                        menggunakan campuran susu dan tepung terigu sebagai komponen 
+                        utamanya. Adonan dimasukkan dalam cetakan baja dan dalam 
+                        beberapa menit telah masak.
+                        Kue ini dimakan menggunakan 2 batang lidi tebal yang menyerupai 
+                        sumpit. Kue ini mendapatkan namanya karena kue yang matang diambil 
+                        dengan alat penjepit oleh si pedagang, sehingga terlihat seperti 
+                        dicubit</p>
+                    <
+                    <span class="price">15.000</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/Cara Membuat Es Goyobod Khas Bandung _ Resep Masakan Jawa.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Es Goyobod</h3>
+                    <p>Es Goyobod adalah minuman dingin khas Sunda yang berbasis 
+                        santan dan mirip dengan es campur,Es goyobod berbahan aci 
+                        atau tepung tapioka sehingga terasa kenyal, ditambahkan 
+                        potongan roti tawar, pacar cina, tape singkong, serutan 
+                        daging kelapa.</p>
+                    
+                    <span class="price">10.000</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/batagor.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Batagor</h3>
+                    <p>Batagor (akronim dari baso tahu goréng, Aksara Sunda Baku: ᮘᮒᮌᮧᮁ), 
+                        merupakan jajanan khas Bandung yang kini sudah dikenal hampir 
+                        di seluruh wilayah Indonesia.
+                        Secara umum, batagor dibuat dari tahu yang dilembutkan dan 
+                        diisi dengan adonan berbahan ikan tenggiri dan tepung tapioka 
+                        lalu dibentuk menyerupai bola yang digoreng dalam minyak panas 
+                        selama beberapa menit hingga matang. Variasi lainnya yaitu 
+                        siomay, digoreng dan dihidangkan bersama batagor dan 
+                        dikombinasikan dengan bumbu kacang, kecap manis, sambal, 
+                        dan air perasan jeruk nipis sebagai pelengkap.</p>
+                    
+                    <span class="price">12.000</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/How to Prepare Perfect Cilok empuk saus kacang pedas.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Cilok</h3>
+                    <p>Cilok (Aksara Sunda Baku: ᮎᮤᮜᮧᮊ᮪ lakuran dari: aci di colok, 
+                        harf. "Aci di tusuk") adalah sebuah kudapan khas Sunda yang 
+                        berbentuk mirip bakso yang terbuat dari tepung tapioka dengan 
+                        tambahan bumbu pelengkap, seperti sambal kacang dan sambal. 
+                        Bentuknya bulat-bulat dan kadang diisi dengan isian, seperti 
+                        daging atau potongan telur di dalamnya</p>
+                    
+                    <span class="price">11.000</span>
+                </div>
+            </div>
+    
+        </div>
+    
+    </section>
+
+</div>
+
+<!-- menu section ends -->
+
+<!-- review section starts  -->
+
+<div class="container">
+
+    <section class="review" id="review">
+
+        <h3 class="sub-heading"> customer's review </h3>
+        <h1 class="heading"> what they say </h1>
+    
+        <div class="swiper review-slider">
+    
+            <div class="swiper-wrapper">
+            </div>
+               
+   
+
+<div class="swiper-slide slide">
+    <i class="fas fa-quote-right"></i>
+    <div class="user">
+        <img src="images/Kevin.jpeg" alt="">
+        <div class="user-info">
+            <h3>Kevin Juniawan</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+    <p>Tidak diragukan lagi Pasti Enak .</p>
+</div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/Farhan.jpeg" alt="">
+                        <div class="user-info">
+                            <h3>Muhammad Farhan Fadhillah</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Harga kaki 5 rasa bintang 5 .</p>
+                </div>
+    </div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/salsa1 (1).jpg" alt="">
+                        <div class="user-info">
+                            <h3>Salsa Ridzkya Permana</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>enakkkkkk bgttttttt luvvvvv.</p>
+                </div>
+                
+            
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/Gaussa.jpeg" alt="">
+                    <div class="user-info">
+                        <h3>Muhammad Gaussa Rabill Saputra</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p> Rasa daging sapi yang empuk dipanaskan berulang-ulang dengan 
+                    santan kelapa. Proses memasaknya memakan waktu berjam-jam hingga 
+                    kering dan berwarna hitam pekat, bercita rasa pedas 
+                    yang menggunakan campuran dari berbagai bumbu dan rempah-rempah.</p>
+            </div>
+            
+       
+        <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+                <img src="images/salsa2.jpeg" alt="">
+                <div class="user-info">
+                    <h3>salsa Safitri Iklima </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <p>saya sangat puas dengan makanan yang saya coba di resto ini. 
+                Makanannya memiliki cita rasa yang lezat dan sesuai dengan lidah saya. 
+                Harganya pun cukup terjangkau.</p>
+        </div>
+        
+    
+    <div class="swiper-slide slide">
+        <i class="fas fa-quote-right"></i>
+        <div class="user">
+            <img src="images/Rizky.jpeg" alt="">
+            <div class="user-info">
+                <h3>Rizky Anugrah Pratama</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+        <p> Makanannya yg enak dan pelayanan yg ramah</p>
+    </div>
+    
+
+<div class="swiper-slide slide">
+    <i class="fas fa-quote-right"></i>
+    <div class="user">
+        <img src="images/Fata.jpeg" alt="">
+        <div class="user-info">
+            <h3>Abriel Fata Sapataji</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+    <p>Pelayanan cepat dan efisien, membuat pengalaman makan 
+        menjadi lebih menyenangkan</p>
+</div>
+
+<div class="swiper-slide slide">
+    <i class="fas fa-quote-right"></i>
+    <div class="user">
+        <img src="images/Adam.jpeg" alt="">
+        <div class="user-info">
+            <h3>Adam Mohammad Yusup Hanapi</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+    <p>recomended banget pokoknya restoran ini, makanan nya enak bngt semua fresh</p>
+</div>
+
+</div>
+
+            <div class="swiper-pagination"></div>
+    
+        </div>
+
+<div class="swiper-pagination"></div>
+
+</div>
+
+    <div class="swiper-pagination"></div>
+
+</div>
+
+    </div>
+
+    <div class="swiper-pagination"></div>
+
+</div>
+
+    </div>
+
+    <div class="swiper-pagination"></div>
+
+</div>
+        
+    </section>
+
+</div>
+
+<!-- review section ends -->
+
+
+<!-- order section ends -->
+
+<!-- footer section starts  -->
+
+<div class="container">
+
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">Indonesia</a>
+                <a href="#">Japan</a>
+                <a href="#">Russia</a>
+                <a href="#">USA</a>
+                <a href="#">France</a>
+            </div>
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">dishes</a>
+                <a href="#">about</a>
+                <a href="#">menu</a>
+                <a href="#">reivew</a>
+                <a href="#">order</a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+62089657147978</a>
+                <a href="#">+62081910399875</a>
+                <a href="#">Manjaro01@gmail.com</a>
+                <a href="#">Sistemoprasi01@gmail.com</a>
+                <a href="#">Jl. Dipati Ukur No.112-116,Lebakgede,Kecamatan Coblong,
+                    Kota Bandung,Jawa Barat  - 40132</a>
+            </div>
+    
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+            </div>
+    
+        </div>
+    
+        <div class="credit"> copyright @ 2024 by <span>Kelompok Manjaro</span> </div>
+    
+    </section>
+
+</div>
+
+<!-- footer section ends -->
+
+<!-- loader part  -->
+<!-- <div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
